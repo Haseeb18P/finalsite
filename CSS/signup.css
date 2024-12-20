@@ -1,0 +1,115 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('../Pics/Index.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.signup-container {
+    background: rgba(0,0,0,0.6);
+    padding: 40px 30px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 350px;
+    width: 90%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.signup-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(255,235,59,0.7);
+}
+
+.signup-container p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form input {
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: #000;
+}
+
+.signup-form button {
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffeb3b;
+    color: #000;
+    box-shadow: 0 0 15px rgba(255,235,59,0.6);
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.signup-form button:hover {
+    background-color: #fdd835;
+    box-shadow: 0 0 25px rgba(253,216,53,0.9);
+    transform: scale(1.05);
+}
+
+.additional-links {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.additional-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.additional-links a:hover {
+    text-decoration: underline;
+}
+
+.page-footer {
+    padding: 20px;
+    text-align: center;
+    background: rgba(0,0,0,0.9);
+    color: #fff;
+    font-size: 0.9rem;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.page-footer p {
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .signup-container h1 {
+        font-size: 2rem;
+    }
+    .signup-container p {
+        font-size: 1rem;
+    }
+}

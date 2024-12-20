@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url('../Pics/Index.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.nav-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 3;
+}
+
+.nav-buttons a {
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: #e0c100;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+    box-shadow: 0 0 15px rgba(224,193,0,0.7);
+}
+
+.nav-buttons a:hover {
+    background-color: #cda800;
+    box-shadow: 0 0 20px rgba(205,168,0,0.9);
+    transform: scale(1.05);
+}
+
+.join-now {
+    position: fixed;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+}
+
+.join-now a {
+    padding: 20px 40px;
+    background-color: #ffeb3b;
+    color: #000;
+    text-decoration: none;
+    font-size: 1.75rem;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 0 25px rgba(255,235,59,0.7);
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.join-now a:hover {
+    background-color: #fdd835;
+    box-shadow: 0 0 35px rgba(253,216,53,0.9);
+    transform: scale(1.05);
+}
